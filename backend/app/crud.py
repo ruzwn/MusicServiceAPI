@@ -1,6 +1,7 @@
-import models, schemas
-
 from sqlalchemy.orm import Session
+
+from . import models
+from . import schemas
 
 
 def get_all_songs(db: Session):

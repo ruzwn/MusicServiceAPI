@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Date, ForeignKey, DateTime
 from sqlalchemy.orm import relationship
 
-from database import Base
+from .database import Base
 
 
 class Artist(Base):
